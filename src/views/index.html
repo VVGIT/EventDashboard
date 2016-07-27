@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Live Messages</title>
+        <!-- bower:js -->
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="/lib/highcharts/highcharts.js"></script>
+        <script src="/lib/highcharts/highcharts-more.js"></script>
+        <script src="/lib/highcharts/modules/exporting.js"></script>
+        <!-- endbower -->
+        <!-- inject:js -->
+        <script src="/js/Script1.js"></script>
+        <script src="/js/Script2.js"></script>
+        <script src="/js/Script3.js"></script>
+        <script src="/js/Script4.js"></script>
+        <!-- endinject -->
+        <!-- inject:css -->
+        <link rel="stylesheet" href="/myStyles.css">
+        <!-- endinject -->
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="shortcut icon" href="">
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                buildTrend();
+                buildTrend2();
+                buildTrend3();
+                buildTrend4();
+            });
+        </script>
+        <div id="container" class="w3-container">
+        </div>
+    </body>
+</html>

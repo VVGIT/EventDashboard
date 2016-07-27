@@ -1,0 +1,22 @@
+{
+  "name": "hc3",
+  "description": "",
+  "main": "trend.js",
+  "authors": [
+    "Viswa Vangala"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "highcharts": "^4.2.5"
+  }
+}

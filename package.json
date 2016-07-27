@@ -1,0 +1,27 @@
+{
+  "name": "hc3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Viswa Vangala",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "highcharts": "^4.2.5",
+    "jquery": "^3.1.0",
+    "node-highcharts-exporter": "0.0.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "wiredep": "^4.0.0"
+  }
+}
